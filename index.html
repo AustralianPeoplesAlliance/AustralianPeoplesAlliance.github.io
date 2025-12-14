@@ -571,15 +571,15 @@
 <body>
     <!-- Audio Players -->
     <audio id="campaignSong" preload="metadata">
-        <source src="Makeadifference.m4a" type="audio/mp4">
-        <source src="Makeadifference.mp3" type="audio/mpeg">
+        <source src="makeadifference.m4a" type="audio/mp4">
+        <source src="makeadifference.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     
     <!-- Radio Interview Audio (M4A) -->
     <audio id="radioInterview" preload="metadata">
-        <source src="whitford-interview.m4a" type="audio/mp4">
-        <source src="whitford-interview.mp3" type="audio/mpeg">
+        <source src="Whitford-interview.m4a" type="audio/mp4">
+        <source src="Whitford-interview.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -714,7 +714,7 @@
                     </p>
                     
                     <!-- Download/Play Buttons -->
-                    <a href="whitford-interview.m4a" class="download-btn" download="Daniel-Whitford-Interview-APA.m4a">
+                    <a href="Whitford-interview.m4a" class="download-btn" download="Daniel-Whitford-Interview-APA.m4a">
                         <span>⬇️</span> Download Interview (M4A)
                     </a>
                     
@@ -985,7 +985,7 @@
             // Audio error handling
             campaignAudio.addEventListener('error', function(e) {
                 console.error('Campaign audio error:', campaignAudio.error);
-                alert('Campaign audio file not found. Please ensure Makeadifference.m4a is in the same folder.');
+                alert('Campaign audio file not found. Please ensure makeadifference.m4a is in the same folder.');
             });
             
             interviewAudio.addEventListener('error', function(e) {
